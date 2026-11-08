@@ -4,7 +4,7 @@ Prebuilt binaries for personal tools. Source repositories are private.
 
 | Tool | Tag format | Status |
 |---|---|---|
-| `kerdr` | `kerdr-v<upstream version>-<build>` | First release pending |
+| `kerdr` | `kerdr-v<upstream version>-<build>` | [kerdr-v0.9.5-1](https://github.com/mkeiji/k-releases/releases/tag/kerdr-v0.9.5-1) |
 | `kagent` | `kagent-v<version>` | First release pending |
 
 `kerdr` is a patched build of [Herdr](https://github.com/herdrdev/herdr) with `kagent` support.
@@ -12,6 +12,8 @@ Prebuilt binaries for personal tools. Source repositories are private.
 ## Install kerdr
 
 Requirements: Linux x86-64 with glibc 2.39 or newer.
+
+Ensure `~/.local/bin` is on your `PATH`. The binary currently reports `herdr 0.9.5`.
 
 ```sh
 tag=kerdr-v0.9.5-1   # replace with the release you want
